@@ -204,19 +204,20 @@ font-weight: bold bold;
 	font-weight: bold;
 	letter-spacing: 2px;
 }
-.why-diagram .center .center-three p{
+.why-diagram .center .center-four p{
 	color: #ffffff;
 	font-family: Ubuntu;
 	font-size: 24px;
 	font-weight: bold;
 	letter-spacing: 2px;
 }
-.why-diagram .center .center-two .icon p{
+.why-diagram .center .icon p{
 	color: #ffffff;
 	font-family: Ubuntu;
-	font-size: 24px;
+	font-size: 26px;
 	font-weight: bold;
 	letter-spacing: 2px;
+	width: 220px;
 }
 .why-diagram .bottom p{
 	color: #ffffff;
@@ -237,48 +238,44 @@ font-weight: bold bold;
 	margin-bottom: 25px;
 }
 .up p{
-	margin-bottom: 50px;
+	margin-bottom: 100px;
 }
 .center{
+	height: 170px;	
 	position: relative;
 	width: 1100px;
-    margin: 0 auto;
+    margin: 0 auto 100px;
     display: flex;
-    justify-content: space-between;
     align-items: center;
 }
-.center-two{
-	margin-left: 30px;
+.center-three, .center-two{
+	text-align: center;
+	letter-spacing: 1.5px;
+	color: #ffffff;
+	font-family: Ubuntu;
+	font-size: 18px;
+	font-weight: bold;
 	margin-bottom: 100px;
 	position: relative;
 	margin-top: 50px;	
-	width: 655px;
+	width: 220px;
 	display: flex;
 	justify-content: space-around;
 	align-items: center;
 }
 
 .icon{
-	margin-left: 60px;
+	max-height: inherit;
+	margin-bottom: -80px;
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
 	align-items: center;	
 }
-.center-one, .center-three{
-	margin-top: -130px;
-}
-.center-two p{
-	letter-spacing: 1.5px;
-	color: #ffffff;
-	font-family: Ubuntu;
-	font-size: 18px;
-	font-weight: bold;
-}
 
 .center::before{
 	left: 35px;
-    top: -220px;
+    top: -285px;
 	position: absolute;
 	content: "";
 	width: 1036px;
@@ -301,11 +298,180 @@ font-weight: bold bold;
 .bottom p{
 	margin-bottom: 130px;
 }
-.center-text::before{
+.center-one{
+	margin-right: 130px;
+}
+.center-two::before{
+	top: 70px;
 	content: "";
 	width: 220px;
-	height: 2px;
-	
+	height: 3px;    
+	width: 220px;
+	position: absolute;
+	background-image: linear-gradient(to right, #3d3d3d, #ababab);
 }
+.center-two::after{
+	content: "";
+	width: 11px;
+	height: 11px;
+	border-radius: 100%;
+	background-color: #00a583;
+	margin-bottom: -105px;
+    margin-right: -50px;
+}
+.center-text{
+	padding-left: 40px;
+}
+.center-two{
+	text-align: center;
+}
+.icon img{
+	margin: 0 30px	 20px;
+}
+.center-three::after{
+	top: 70px;
+	content: "";
+	width: 220px;
+	height: 3px;
+	position: absolute;
+	background-image: linear-gradient(to right, #ababab,  #3d3d3d);
+}
+.center-three::before{
+	content: "";
+	width: 11px;
+	height: 11px;
+	border-radius: 100%;
+	background-color: #00a583;
+	margin-bottom: -105px;
+    margin-left: -40px;
+}
+.center-three{
+	margin-right: 110px;
+}
+.center-two, .icon, .center-three{
+margin-top: -30px;
+}
+.center-one, .center-four{
+	margin-top: -80px;
+}
+
+.applications{
+	width: 1140px;
+	margin: 0 auto;
+}
+.applications h2{
+	margin-bottom: 35px;
+	text-align: center;
+	width: 1140px;
+	height: 146px;
+	color: #000000;
+	font-family: Ubuntu;
+	font-size: 65px;
+	font-weight: 700;
+	line-height: 82px;
+}
+.why-diagram{
+	margin-bottom: 110px;
+}
+.applications > p{
+	text-align: center;
+	width: 1140px;
+	height: 24px;
+	color: #010101;
+	font-family: Ubuntu;
+	font-size: 24px;
+	font-weight: 500;
+	margin-bottom: 75px;
+}
+.app-icons div{
+	margin-bottom: 30px;
+	display: flex;
+	justify-content: center;
+	align-items: center;	
+	width: 160px;
+	height: 160px;
+	box-shadow: 0 2px 2px 3px rgba(0, 0, 0, 0.05);
+	background-color: #f8f8f8;
+}
+.app-icons, .app-text{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.app-text p {
+	margin-bottom: 160px;
+	text-align: center;
+	display: block;
+	width: 160px;
+	height: 50px;
+	color: #000000;
+	font-family: Ubuntu-Bold;
+	font-size: 22px;
+}
+.how{
+	width: 1140px;
+	margin: 0 auto;
+}
+.how h2{
+	margin-bottom: 35px;
+	text-align: center;
+	width: 1140px;
+	height: 64px;
+	color: #000000;
+	font-family: Ubuntu-Bold;
+	font-size: 65px;
+	line-height: 82px;
+}
+.how > p{
+	margin-bottom: 85px;
+	text-align: center;
+	width: 1140px;
+	height: 24px;
+	color: #000000;
+	font-family: Ubuntu-Bold;
+	font-size: 24px;
+	font-weight: 500;
+	line-height: 82px;
+}
+.creation{
+	margin-bottom: 50px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.creation p span{
+color: #000000;
+font-family: Ubuntu-Bold;
+font-size: 18px;
+}
+.creation p{
+	margin-right: 115px;
+width: 460px;
+font-family: Ubuntu;
+font-weight: 400;
+}
+.setup{
+		margin-bottom: 50px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.setup p span{
+	color: #000000;
+	font-family: Ubuntu-Bold;
+	font-size: 18px;
+}
+.setup p{
+	margin-left: 115px;
+	width: 460px;
+	font-family: Ubuntu;
+	font-weight: 400;
+}
+
+
+
+
+
 
 
