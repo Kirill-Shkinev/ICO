@@ -6,7 +6,7 @@
 	font-family: 'Ubuntu-Bold';
 	src: url(Fonts/Ubuntu/Ubuntu-Bold.ttf) ;
 }		
-*{
+*{	
 	margin:0;
 	padding: 0;
 }
@@ -480,6 +480,8 @@ margin-top: -30px;
 }
 .setup p{
 		font-size: 18px;
+<<<<<<< HEAD
+=======
 	margin-left: 115px;
 	width: 460px;
 	font-family: Ubuntu;
@@ -546,11 +548,81 @@ margin-top: -30px;
 }
 .drop p{
 		font-size: 18px;
+>>>>>>> master
 	margin-left: 115px;
 	width: 460px;
 	font-family: Ubuntu;
 	font-weight: 400;
 }
+<<<<<<< HEAD
+.setup-img{
+	display: block;
+	position: relative;
+}
+.setup-img::before{
+	z-index: -1;
+	content: "";
+	display: block;
+	position: absolute;
+	top: 60px;
+	left: -60px;
+	width: 486px;
+	height: 267px;
+	border: 1px solid #dddddd;
+}
+.open{
+	margin-bottom: 50px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.open p span{
+	color: #000000;
+	font-family: Ubuntu-Bold;
+	font-size: 24px;
+}
+.open p{
+		font-size: 18px;
+	margin-right: 115px;
+	width: 460px;
+	font-family: Ubuntu;
+	font-weight: 400;
+}
+.open-img{
+	display: block;
+	position: relative;
+}
+.open-img::before{
+	z-index: -1;
+	content: "";
+	display: block;
+	position: absolute;
+	top: 60px;
+	left: 60px;
+	width: 486px;
+	height: 267px;
+	border: 1px solid #dddddd;
+}
+.drop{
+	margin-bottom: 170px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.drop p span{
+	color: #000000;
+	font-family: Ubuntu-Bold;
+	font-size: 24px;
+}
+.drop p{
+		font-size: 18px;
+	margin-left: 115px;
+	width: 460px;
+	font-family: Ubuntu;
+	font-weight: 400;
+}
+=======
+>>>>>>> master
 .drop-img{
 	display: block;
 	position: relative;
@@ -643,6 +715,8 @@ margin-top: -30px;
 	background-color: #f8f8f8;
 	display: flex;
 	flex-direction: column;
+<<<<<<< HEAD
+=======
 
 }
 .items{
@@ -779,10 +853,261 @@ li{
 
 
 
+>>>>>>> master
 
-
-
-
-
-
+}
+.items{
+	width: 1140px;
+	margin: 0 auto 107px;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+h3{ 
+	margin: 50px auto 45px;
+	text-align: center;
+	color: #000000;
+	font-family: Ubuntu-Bold;
+	font-size: 22px;
+}
+.assistance::after,.service::after,.development::after,.summary::after{
+	top: 115px;
+	left: 43.5px;
+	content: "";
+	position: absolute;
+	width: 178px;
+	height: 4px;
+	background-color: #00a583;
+}
+.assistance::before, .summary::before{
+	content: "";
+	position: absolute;
+	width: 51px;
+ 	height: 44px;
+ 	background: url(img/triangle.png);
+ 	left: 110px;
+    top: 285px;
+}
+.service::before{
+	content: "";
+	position: absolute;
+	width: 127px;
+	left: 0px;
+    top: 263px;
+	height: 81px;
+ 	background: url(img/triangle_left.png);
+}
+.development::before{
+	content: "";
+	position: absolute;
+	width: 127px;
+	left: 138px;
+    top: 263px;
+	height: 81px;
+ 	background: url(img/triangle_right.png);	
+}
+.contacts{
+	height: 504px;
+	background-image: url(img/contact_background.png);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	margin-bottom: 50px;
+}
+.contacts h2{
+	width: 308px;
+	height: 48px;
+	color: #00b384;
+	font-family: Ubuntu;
+	font-size: 65px;
+	font-weight: 400;
+	line-height: 45px;
+	text-align: center;
+	margin-bottom: 50px;
+}
+.contact{
+	padding-top: 90px;
+	width: 1140px;
+	margin: 0 auto;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+.contact p {
+	width: 742px;
+	height: 24px;
+	color: #fefefe;
+	font-family: Ubuntu;
+	font-size: 24px;
+	font-weight: 500;
+	line-height: 45px;
+	margin-bottom: 65px;
+}
+.forms{
+	width: 1168px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.forms input{
+	margin-bottom: 45px;
+	text-align: center;	
+	color: #ffffff;
+	font-family: Ubuntu;
+	font-size: 18px;
+	font-weight: 400;
+	line-height: 45px;
+	background:none;
+	width: 380px;
+	height: 50px;
+	border: 1px solid #ffffff;
+}
+.send{
+	width: 198px;
+	height: 48px;
+	border: 2px solid #00b384;
+	background-color: #00b384;
+	color: #fefefe;
+	font-family: Ubuntu;
+	font-size: 18px;
+	font-weight: 700;
+	line-height: 33px;
+}
+.footer{
+	display: flex;
+	justify-content: space-between;
+	align-items: flex-start;
+	width: 835px;
+	margin: 0 auto 45px;
+}
+.pages a {
+	text-decoration: none;
+	color: #071a13;
+	font-family: Ubuntu;
+	font-size: 16px;
+	font-weight: 400;
+	line-height: 30px;
+}
+li{
+	list-style-type: none;
+}
+.pages{
+	width: 215px;
+	display: flex ;
+	align-items: center;
+	justify-content: space-between;
+}
+.page, .page-two{
+	display: flex;
+	flex-direction: column;
+}
+.pages p {
+	position: relative;
+	width: 41px;
+	height: 14px;
+	color: #00b384;
+	font-family: Ubuntu;
+	font-size: 16px;
+	font-weight: bold;
+	margin-bottom: 35px;
+}
+.pages p::before{
+	display: block;
+	content: "";
+	position: absolute;
+	height: 2px;
+	width: 25px;
+	background-color: #33b185;
+	top: 25px;
+}
+.page-two{
+	margin-top: 20px;
+}
+.contact-info{
+	width: 180px;
+}
+.contact-one{
+	position: relative;
+	width: 89px;
+	height: 13px;
+	color: #00b384;
+	font-family: Ubuntu;
+	font-size: 16px;
+	font-weight: bold;
+	margin-bottom: 35px;
+}
+.contact-two{
+	width: 178px;
+	height: 105px;
+	color: #071a13;
+	font-family: Ubuntu;
+	font-size: 16px;
+	font-weight: bold;
+	line-height: 30px;
+}
+.contact-one::before{
+	display: block;
+	content: "";
+	position: absolute;
+	height: 2px;
+	width: 25px;
+	background-color: #33b185;
+	top: 24px;
+}
+.social-{
+	height: 38px;
+	width: 38px;
+	margin: 0 5px;
+}
+.social-logo{
+	width: 128px;
+	height: 38;
+	margin-bottom: 40px;
+}
+.social p{
+	width: 89px;
+	height: 13px;
+	color: #00b384;
+	font-family: Ubuntu;
+	font-size: 16px;
+	font-weight: bold;
+	position: relative;
+	margin-bottom: 25px;
+}
+.social a{
+	text-decoration: none;
+}
+.social p::before{
+	display: block;
+	content: "";
+	position: absolute;
+	height: 2px;
+	width: 25px;
+	background-color: #33b185;
+	top: 24px;
+}
+.copyright{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 50px;
+	background-color: #323232;
+}
+.copyright p{
+	margin-right: 460px;
+	width: 310px;
+	height: 16px;
+	color: #ffffff;
+	font-family: Ubuntu;
+	font-size: 16px;
+}
+.copyright a{
+width: 100px;
+height: 18px;
+color: #ffffff;
+font-family: Ubuntu;
+font-size: 16px;
+font-weight: 400;
+text-decoration: underline;
+}
 
