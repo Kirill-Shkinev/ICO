@@ -479,9 +479,73 @@ margin-top: -30px;
 	font-size: 24px;
 }
 .setup p{
+	font-size: 18px;
+	margin-left: 115px;
+	width: 460px;
+	font-family: Ubuntu;
+	font-weight: 400;
+}
+.setup-img{
+	display: block;
+	position: relative;
+}
+.setup-img::before{
+	z-index: -1;
+	content: "";
+	display: block;
+	position: absolute;
+	top: 60px;
+	left: -60px;
+	width: 486px;
+	height: 267px;
+	border: 1px solid #dddddd;
+}
+.open{
+	margin-bottom: 50px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.open p span{
+	color: #000000;
+	font-family: Ubuntu-Bold;
+	font-size: 24px;
+}
+.open p{
 		font-size: 18px;
-<<<<<<< HEAD
-=======
+	margin-right: 115px;
+	width: 460px;
+	font-family: Ubuntu;
+	font-weight: 400;
+}
+.open-img{
+	display: block;
+	position: relative;
+}
+.open-img::before{
+	z-index: -1;
+	content: "";
+	display: block;
+	position: absolute;
+	top: 60px;
+	left: 60px;
+	width: 486px;
+	height: 267px;
+	border: 1px solid #dddddd;
+}
+.drop{
+	margin-bottom: 170px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.drop p span{
+	color: #000000;
+	font-family: Ubuntu-Bold;
+	font-size: 24px;
+}
+.drop p{
+	font-size: 18px;
 	margin-left: 115px;
 	width: 460px;
 	font-family: Ubuntu;
@@ -548,81 +612,11 @@ margin-top: -30px;
 }
 .drop p{
 		font-size: 18px;
->>>>>>> master
 	margin-left: 115px;
 	width: 460px;
 	font-family: Ubuntu;
 	font-weight: 400;
 }
-<<<<<<< HEAD
-.setup-img{
-	display: block;
-	position: relative;
-}
-.setup-img::before{
-	z-index: -1;
-	content: "";
-	display: block;
-	position: absolute;
-	top: 60px;
-	left: -60px;
-	width: 486px;
-	height: 267px;
-	border: 1px solid #dddddd;
-}
-.open{
-	margin-bottom: 50px;
-	display: flex;
-	justify-content: center;
-	align-items: center;
-}
-.open p span{
-	color: #000000;
-	font-family: Ubuntu-Bold;
-	font-size: 24px;
-}
-.open p{
-		font-size: 18px;
-	margin-right: 115px;
-	width: 460px;
-	font-family: Ubuntu;
-	font-weight: 400;
-}
-.open-img{
-	display: block;
-	position: relative;
-}
-.open-img::before{
-	z-index: -1;
-	content: "";
-	display: block;
-	position: absolute;
-	top: 60px;
-	left: 60px;
-	width: 486px;
-	height: 267px;
-	border: 1px solid #dddddd;
-}
-.drop{
-	margin-bottom: 170px;
-	display: flex;
-	justify-content: center;
-	align-items: center;
-}
-.drop p span{
-	color: #000000;
-	font-family: Ubuntu-Bold;
-	font-size: 24px;
-}
-.drop p{
-		font-size: 18px;
-	margin-left: 115px;
-	width: 460px;
-	font-family: Ubuntu;
-	font-weight: 400;
-}
-=======
->>>>>>> master
 .drop-img{
 	display: block;
 	position: relative;
@@ -715,9 +709,6 @@ margin-top: -30px;
 	background-color: #f8f8f8;
 	display: flex;
 	flex-direction: column;
-<<<<<<< HEAD
-=======
-
 }
 .items{
 	width: 1140px;
@@ -850,11 +841,6 @@ li a {
 li{
 	list-style-type: none;
 }
-
-
-
->>>>>>> master
-
 }
 .items{
 	width: 1140px;
